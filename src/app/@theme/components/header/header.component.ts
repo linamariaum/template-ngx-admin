@@ -18,33 +18,33 @@ export class HeaderComponent implements OnInit, OnDestroy {
   user: any;
   user1: User = {
     name: 'Andres',
-    picture: 'assets/images/andres.png'
+    picture: 'assets/images/andres.png',
   };
   user2: User = {
     name: 'Jaidiber',
-    picture: 'assets/images/jaidiber.png'
+    picture: 'assets/images/jaidiber.png',
   };
   user3: User = {
     name: 'Lina',
-    picture: 'assets/images/lina.png'
+    picture: 'assets/images/lina.png',
   };
 
   themes = [
     {
       value: 'light',
-      name: 'Light'
+      name: 'Light',
     },
     {
       value: 'default',
-      name: 'Dark'
+      name: 'Dark',
     },
     {
       value: 'cosmic',
-      name: 'Cosmic'
+      name: 'Cosmic',
     },
     {
       value: 'corporate',
-      name: 'Corporate'
+      name: 'Corporate',
     },
   ];
 
