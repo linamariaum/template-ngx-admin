@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { NbMediaBreakpointsService, NbMenuService, NbSidebarService, NbThemeService } from '@nebular/theme';
 
-import { UserData } from '../../../@core/data/users';
+import { UserData, User } from '../../../@core/data/users';
 import { LayoutService } from '../../../@core/utils';
 import { map, takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
@@ -16,14 +16,26 @@ export class HeaderComponent implements OnInit, OnDestroy {
   private destroy$: Subject<void> = new Subject<void>();
   userPictureOnly: boolean = false;
   user: any;
+  user1: User = {
+    name: 'Andres',
+    picture: 'assets/images/andres.png'
+  };
+  user2: User = {
+    name: 'Jaidiber',
+    picture: 'assets/images/jaidiber.png'
+  };
+  user3: User = {
+    name: 'Lina',
+    picture: 'assets/images/lina.png'
+  };
 
   themes = [
     {
-      value: 'default',
+      value: 'light',
       name: 'Light',
     },
     {
-      value: 'dark',
+      value: 'default',
       name: 'Dark',
     },
     {
