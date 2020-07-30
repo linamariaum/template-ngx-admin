@@ -2,6 +2,8 @@
 
 [Who uses ngx-admin?](https://github.com/akveo/ngx-admin/issues/1645)| [Documentation](https://hubs.ly/H0n4Sfq0) | [Installation Guidelines](https://hubs.ly/H0n4Svc0)
 
+Original repository [here](https://github.com/akveo/ngx-admin) by [Akveo](https://www.akveo.com/)
+
 # New! Material theme for ngx-admin
 
 Material admin theme is based on the most popular Angular dashboard template - [ngx-admin](https://hubs.ly/H0nJG1G0)
